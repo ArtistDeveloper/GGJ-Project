@@ -36,13 +36,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CelManagTest.cs" />
+     <Compile Include="Assets\Scripts\Audio.cs" />
+     <Compile Include="Assets\Scripts\CellManagerScripts\CellManager.cs" />
+     <Compile Include="Assets\Scripts\CellManagerScripts\StageFiveCellManager.cs" />
+     <Compile Include="Assets\Scripts\CellManagerScripts\StageFourCellManager.cs" />
+     <Compile Include="Assets\Scripts\CellManagerScripts\StageThreeCellManager.cs" />
+     <Compile Include="Assets\Scripts\CellManagerScripts\StageTwoCellManager.cs" />
+     <Compile Include="Assets\Scripts\Ending\Ending.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Item\Body.cs" />
+     <Compile Include="Assets\Scripts\Item\End.cs" />
+     <Compile Include="Assets\Scripts\Item\ExitItem.cs" />
+     <Compile Include="Assets\Scripts\Item\Feet.cs" />
+     <Compile Include="Assets\Scripts\Item\Sound.cs" />
+     <Compile Include="Assets\Scripts\Item\StartButton.cs" />
+     <Compile Include="Assets\Scripts\Item\Tile.cs" />
      <Compile Include="Assets\Scripts\ObjData.cs" />
      <Compile Include="Assets\Scripts\Object\Door.cs" />
      <Compile Include="Assets\Scripts\Object\Thorn.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\StageTwoCellManager.cs" />
      <Compile Include="Assets\Scripts\TalkManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

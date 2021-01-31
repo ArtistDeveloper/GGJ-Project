@@ -25,7 +25,7 @@ public class Thorn : MonoBehaviour
                 playerController.Die();
                 GameObject player = other.gameObject;
                 //Destroy를 통해 여러개의 플레이어 오브젝트가 생기는 것을 방지.
-                Destroy(player); 
+                // Destroy(player); 
             }
         }
     }

@@ -27,9 +27,14 @@ public class Door : MonoBehaviour
             Debug.Log("Door Enter");
             Debug.Log(sceneNumber);
 
+            //other를 통해 player를 들고 옴. 문 직전의 객체면 아이템을 다 먹은 상태일 것이니
+            // 이 상태를 가지고 있는 player를 저장하여 .Respawn함수에 사용할 것.
+            PlayerController player = other.GetComponent<PlayerController>();
+
             //스테이지 전체 개수보다 작으면 LoadScene수행
-            if (sceneNumber+1 < 5) {
+            if (sceneNumber+1 < 7) {
                 SceneManager.LoadScene(sceneNumber+1);
+                // SceneManager.LoadScene("Stage2");
             }
         }
     }
