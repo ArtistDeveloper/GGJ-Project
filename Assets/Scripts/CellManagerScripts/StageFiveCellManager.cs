@@ -31,7 +31,7 @@ public class StageFiveCellManager : CellManager
      void Awake()
     {
         //스테이지2의 리스폰 포지션 지정.
-        respawnPosition = new Vector2(7,-2);
+        respawnPosition = new Vector2(1.5f,-2.1f);
 
         //플레이어 캐릭터 받아오기.
         Character = GameObject.Find("PlayerCharacter");

@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Item\Sound.cs" />
      <Compile Include="Assets\Scripts\Item\StartButton.cs" />
      <Compile Include="Assets\Scripts\Item\Tile.cs" />
+     <Compile Include="Assets\Scripts\Item\XButton.cs" />
      <Compile Include="Assets\Scripts\ObjData.cs" />
      <Compile Include="Assets\Scripts\Object\Door.cs" />
      <Compile Include="Assets\Scripts\Object\Thorn.cs" />

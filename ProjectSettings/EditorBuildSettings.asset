@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CellManagerTest.unity
     guid: 9e7b62bc5f0396249a1759fb583f76bb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScene 1.unity
     guid: 9ce6c3436cddaec428abb87521b2b6be
   - enabled: 1

@@ -11,6 +11,8 @@ public class Tile : MonoBehaviour
                     playerController.hasTile = true;
                     //hastile이 true가 됐다. 즉, 타일아이템을 먹은 것이니 retiling메소드를 호출한다.
                     CallRetilingMethod();
+
+                Destroy(gameObject);
             }
     }
 

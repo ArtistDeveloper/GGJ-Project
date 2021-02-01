@@ -9,6 +9,7 @@ public class Sound : MonoBehaviour
                 PlayerController playerController = other.GetComponent<PlayerController>();
                 if (playerController != null) 
                     playerController.hasSound = true;
+                Destroy(gameObject);
             }
     }
 }

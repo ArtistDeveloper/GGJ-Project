@@ -9,6 +9,7 @@ public class End : MonoBehaviour
                 PlayerController playerController = other.GetComponent<PlayerController>();
                 if (playerController != null) 
                     playerController.hasEnd = true;
+                Destroy(gameObject);
             }
     }
 }

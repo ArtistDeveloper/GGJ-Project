@@ -32,7 +32,7 @@ public class Door : MonoBehaviour
             PlayerController player = other.GetComponent<PlayerController>();
 
             //스테이지 전체 개수보다 작으면 LoadScene수행
-            if (sceneNumber+1 < 7) {
+            if (sceneNumber+1 < 6) {
                 SceneManager.LoadScene(sceneNumber+1);
                 // SceneManager.LoadScene("Stage2");
             }

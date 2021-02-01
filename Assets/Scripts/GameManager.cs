@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     // 스크립트
     public TalkManager talkManager;
     // 대화창
@@ -15,6 +17,7 @@ public class GameManager : MonoBehaviour
     public GameObject scanObject;       //stage번호 불러올 객체
     public int talkIndex;
     public GameObject ballunAndTail;
+    
     // ExitPanel 캔버스 불러오기
     public GameObject creditWindow;
     public GameObject exitPanel;
@@ -34,12 +37,17 @@ public class GameManager : MonoBehaviour
         //     //ExitPanel.SetActive(true);
         // }
 
-    }
+        if (instance == null) {
+            instance = this;
+        }
 
-    // Start is called before the first frame update
-    void Start()
-    {
+        else {
+            Debug.Log("씬에 두 개 이상의 게임매니저가 존재합니다");
+            Destroy(gameObject);
+        }
+
         
+
     }
 
     // Update is called once per frame

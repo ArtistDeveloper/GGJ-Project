@@ -19,11 +19,11 @@ public class TalkManager : MonoBehaviour
         // id = 0: stage1
         talkData.Add(1, new string[] { "Where is the door?" });
         talkData.Add(2, new string[] { "Where is the dummy map?" });
-        talkData.Add(4, new string[] { "Where is my torso?" });
-        talkData.Add(5, new string[] { "Where are my feet?" });
-        talkData.Add(6, new string[] { "Where are the background tiles?" });
-        talkData.Add(7, new string[] { "Where is the sound?" });
-        talkData.Add(11, new string[] { "Where is the X?" });
+        talkData.Add(3, new string[] { "Where is my torso?" });
+        talkData.Add(4, new string[] { "Where are my feet?" });
+        talkData.Add(5, new string[] { "Where are the background tiles and X?" });
+        // talkData.Add(7, new string[] { "Where is the sound?" });
+        // talkData.Add(11, new string[] { "Where is the X?" });
         
 
     }

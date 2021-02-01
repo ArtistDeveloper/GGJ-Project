@@ -15,5 +15,6 @@ public class Feet : MonoBehaviour
                 if (playerController != null) 
                    playerController.GetFeet();
             }
+            Destroy(gameObject);
     }
 }

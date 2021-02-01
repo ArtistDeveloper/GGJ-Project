@@ -23,6 +23,7 @@ public class Body : MonoBehaviour
                     // Debug.Log("hasFeet야");
                     // Debug.Log(animator.GetBool("hasFeet"));
                 }
+                Destroy(gameObject);
             }
     }
 }

@@ -9,6 +9,7 @@ public class StartButton : MonoBehaviour
                 PlayerController playerController = other.GetComponent<PlayerController>();
                 if (playerController != null) 
                     playerController.hasStart = true;
+                Destroy(gameObject);
             }
     }
 }
